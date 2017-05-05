@@ -1,0 +1,31 @@
+[{
+    "name": "Dairy Milk",
+        "manufacturer": "cadbury",
+        "price": 45,
+        "rating": 2
+}, {
+    "name": "Galaxy",
+        "manufacturer": "Nestle",
+        "price": 42,
+        "rating": 3
+}, {
+    "name": "Lindt",
+        "manufacturer": "Lindt",
+        "price": 80,
+        "rating": 4
+}, {
+    "name": "Hershey",
+        "manufacturer": "Hershey",
+        "price": 40,
+        "rating": 1
+}, {
+    "name": "Dolfin",
+        "manufacturer": "Lindt",
+        "price": 90,
+        "rating": 5
+}, {
+    "name": "Bournville",
+        "manufacturer": "cadbury",
+        "price": 70,
+        "rating": 2
+}]

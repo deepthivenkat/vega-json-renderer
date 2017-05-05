@@ -1,0 +1,8 @@
+{
+  "data": {"url": "data/chocolate.json"},
+  "mark": "circle",
+  "encoding": {
+    "x": {"field": "price", "type": "quantitative"},
+    "y": {"field": "rating", "type": "quantitative"}
+  }
+}

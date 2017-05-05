@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Vega Test Interact with jstat</title>
+    <!-- <link rel="stylesheet" href="http://trifacta.github.io/vega/css/vega.css"/> -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="colorbrewer.min.js"></script>
+    
+   <!--  <script src="http://trifacta.github.io/vega/vega.js"></script> -->
+    <!-- <script src="jstat-1.0.0.js"></script> -->
+    <!-- <link type="text/css" href="style.css" rel="stylesheet"> -->
+    <style>
+      .tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+#sides {
+     height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+#sides > div {
+  float: left;
+}
+/* plot */
+.div1 {
+  width: 84%;
+  height: 69%;
+margin-bottom: 3px;
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 8px;
+}
+/* data attributes */
+/*.div2 {
+     width: 15%;
+    background-color: #38425d;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    margin-top: 5px;
+    height: 100%;
+    color: #FFF;
+}*/
+
+.axis path,
+      .axis line {
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+      }
+      
+      .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+      }
+
+/* recommendations */
+.div4-header{
+  width: 25%;
+  height: 5%;
+  background-color: #DEE5F1;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.div4 {
+  width: 85%;
+  height: 27%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 8px;
+  background-color: #DEE5F1;
+}
+
+    </style>
+  </head>
+  <body>
+    <p><strong>Vega Test Interact with D3</strong></p>
+    <div id="sides">
+      <!-- Main Plot -->
+    <div class="div1"></div>
+    <!-- Attributes -->
+    <div class="dummy-margin"></div>
+    <!-- <div class="div2"></div>     -->
+   <!-- <div class="div3"></div> -->
+    <!-- Recomm bar -->
+    <div class="div4 halvetica">
+      <i class="fa fa-caret-left scroll-left"></i>
+      <i class="fa fa-caret-right scroll-right"></i>
+
+      <div class="inner-div4"></div>
+    </div>
+   </div>
+    
+  </body>
+  <!--<script type="text/javascript" src="json_d3_renderer.js"> -->
+<script src="bundle.js"></script>
+  </script>
+</html>
